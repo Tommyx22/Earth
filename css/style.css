@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(11, 10, 49);
+    color: white;
+}
+
+div {
+
+    border: 1px solid white;
+}
+
+#header {
+
+    float: left;
+    width: 60%;
+    height:700px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#descrizione {
+
+    float: left;
+    width: 40%;
+    height: 700px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#titolo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#immagine {
+    height: 100%;
+    width: 650px;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.menu:hover {
+
+    background-color: blue;
+}
+
+#testo::first-line {
+    color: yellow;
+}
+
+.stats {
+
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:700px) {
+
+    #header {
+        width: 100%;
+    }
+
+    #descrizione {
+        width: 100%;
+    }
+
+    .stats {
+        width: 100%;
+    }
+
+
+}
